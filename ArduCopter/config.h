@@ -356,6 +356,12 @@
 #endif
 
 //////////////////////////////////////////////////////////////////////////////
+// Jidori - just a copy of circle mode for now
+#ifndef MODE_JIDORI_ENABLED
+# define MODE_JIDORI_ENABLED ENABLED
+#endif
+
+//////////////////////////////////////////////////////////////////////////////
 // Beacon support - support for local positioning systems
 #ifndef BEACON_ENABLED
 # define BEACON_ENABLED !HAL_MINIMIZE_FEATURES

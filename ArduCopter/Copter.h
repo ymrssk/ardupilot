@@ -988,7 +988,7 @@ private:
 #if MODE_ZIGZAG_ENABLED == ENABLED
     ModeZigZag mode_zigzag;
 #endif
-#if MODE_JODORI_ENABLED == ENABLED
+#if MODE_JIDORI_ENABLED == ENABLED
     ModeJidori mode_jidori;
 #endif
 

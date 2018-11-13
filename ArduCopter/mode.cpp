@@ -161,7 +161,7 @@ Copter::Mode *Copter::mode_from_mode_num(const uint8_t mode)
             break;
 #endif
 
-#if MODE_JODORI_ENABLED == ENABLED
+#if MODE_JIDORI_ENABLED == ENABLED
         case JIDORI:
             ret = &mode_jidori;
             break;

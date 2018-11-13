@@ -1318,7 +1318,7 @@ public:
 protected:
 
     const char *name() const override { return "JIDORI"; }
-    const char *name4() const override { return "JDR"; }
+    const char *name4() const override { return "JDRI"; }
 
     uint32_t wp_distance() const override;
     int32_t wp_bearing() const override;
